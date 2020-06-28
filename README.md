@@ -1,5 +1,5 @@
 
-- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=Novel Covid-19 Tarcker) `#f03c15`
+https://placehold.it/150/ffffff/ff0000?text=hello
 # Covid-19 Tracker using React
 <img src="https://github.com/mvskiren/Covid-Tracker/blob/master/Screenshot%202020-06-28%20at%207.55.20%20PM.png" />
 

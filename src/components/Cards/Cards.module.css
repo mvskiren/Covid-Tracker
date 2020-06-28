@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex: 0 0 23%;
+    margin: 3%;
+}
+h6{
+    color: white;
+    opacity: 0.6;
+    font-size: 10px;
+}
+.redbg{
+    background:#dc354520;
+    opacity: 0.95;
+    z-index: -1;
+}
+.greenbg{
+    background:#28a74520;
+    opacity: 0.95;
+    z-index: -1;
+}
+.bluebg{
+    background:#007bff10;
+    opacity: 0.95;
+    z-index: -1;
+}
+h3{
+    font-size: 25px; 
+    z-index: 1;
+    
+}
+h4{
+    font-size: 19px;
+    z-index: 1;
+}
+
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   /* background: #007bff10; */
+    align-items: center;
+    flex: 0 0 15%;
+    /* padding: 5px 10px 5px 10px; */
+    margin: 2%;
+    z-index:1;
+    border-radius: 5%;
+}
+.confirmed{
+
+   color:  #007bff;
+}
+.recovered{
+    color: #28a745;
+}
+.active{
+    color: #FF073A;
+}
+.deaths{
+    color:  #007bff;
+}
+    
+.ledred {
+    margin: 0 auto;
+    width: 12px;
+    height: 12px;
+    background-color: #FF073A;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+    -webkit-animation: blinkRed 0.5s infinite;
+    -moz-animation: blinkRed 0.5s infinite;
+    -ms-animation: blinkRed 0.5s infinite;
+    -o-animation: blinkRed 0.5s infinite;
+    animation: blinkRed 0.5s infinite;
+  }
+  
+  @-webkit-keyframes blinkRed {
+      from { background-color: #FF073A; }
+      50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 0px 0;}
+      to { background-color: #FF073A; }
+  }
+  @-moz-keyframes blinkRed {
+      from { background-color: #FF073A; }
+      50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 0px 0;}
+      to { background-color: #FF073A; }
+  }
+  @-ms-keyframes blinkRed {
+      from { background-color: #FF073A; }
+      50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 0px 0;}
+      to { background-color: #FF073A; }
+  }
+  @-o-keyframes blinkRed {
+      from { background-color: #FF073A; }
+      50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 0px 0;}
+      to { background-color: #FF073A; }
+  }
+  @keyframes blinkRed {
+      from { background-color: #FF073A; }
+      50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 0px 0;}
+      to { background-color: #FF073A; }
+  }
+
+  .ledgreen {
+    margin: 0 auto;
+    width: 10px;
+    height: 10px;
+    background-color: #28a745;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+  }
+  .ledblue {
+    margin: 0 auto;
+    width: 12px;
+    height: 12px;
+    background-color: #007bff;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #006 0 -1px 9px, #3F8CFF 0 2px 14px;
+  }
+

@@ -1,4 +1,5 @@
 
+- ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) `#f03c15`
 # Covid-19 Tracker with React
 <img src="https://github.com/mvskiren/Covid-Tracker/blob/master/Screenshot%202020-06-28%20at%207.55.20%20PM.png" />
 

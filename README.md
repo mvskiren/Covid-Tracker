@@ -1,6 +1,6 @@
 
 
-# Novel Covid-19 Tracker using React
+# Novel Covid-19 Tracker using React (Donate with Stripe)
 <img src="https://github.com/mvskiren/Covid-Tracker/blob/master/Screenshot%202020-06-28%20at%207.55.20%20PM.png" />
 
 ## Available Scripts
